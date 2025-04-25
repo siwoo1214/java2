@@ -1,0 +1,30 @@
+
+ 
+		
+		
+		 와일드카드문자 :   ?		 
+		 매서드에서 사용됨  
+	
+	 
+		 		
+		 와일드카드는 변수가 참조할 수 있는 객체의 타입을 유연하게 허용하는 데 중점을 두고 있음
+		( 하나의 참조변수로 대입된 타입이 다른 객체를 참조가능하다 )
+		
+		
+		사용:
+		 와일드카드는 매서드 매개변수에서 주로 사용됨  		
+		  
+		 
+		  
+		  
+		 ArrayList< ? extends Person >  list
+		 ArrayList< ? super Person> list 
+		 
+		 ArrayList<? > list        
+		 ArrayList< ? extends Object>list 와 동일
+		
+		
+	     주의 !!객체를 생성할 때는 항상 명확한 타입을 지정해야 한다
+	     와일드카드사용못함	     
+	     ArrayList< Person> list = new ArrayList<>();
+		

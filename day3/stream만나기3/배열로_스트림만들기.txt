@@ -1,0 +1,14 @@
+
+
+	Arrays.stream(): 객체 배열과 기본형 배열 모두에 사용 가능.
+	Stream.of(): 객체 배열에만 사용 가능.
+	
+	
+	int[] intArray = {1, 2, 3};
+	IntStream intStream = Arrays.stream(intArray);
+	 
+	
+	
+	String[] stringArray = {"A", "B", "C"};
+	Stream<String> stream2 = Stream.of(stringArray);
+	 

@@ -1,13 +1,10 @@
 package day1.builder;
 
 public class Acorn {
-	
 	String id;
 	String pw;
- 
 	 
 	private Acorn( Builder builder) {
-		
 		this.id  = builder.id;
 		this.pw  = builder.pw;
 	}
@@ -18,18 +15,12 @@ public class Acorn {
 		return "Acorn [id=" + id + ", pw=" + pw + "]";
 	}
 
-
 	static class Builder{
-		
 		String id;
 		String pw;
 		
-		
-		
-		
 		Builder id( String id) {
 			this.id  = id;
-			 
 			return this;
 		}
 		

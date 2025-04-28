@@ -1,4 +1,4 @@
-package day02prac.과제;
+package day2Prac.과제;
 
 import java.util.function.Function;
 

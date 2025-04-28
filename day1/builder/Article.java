@@ -26,7 +26,6 @@ public class Article {
     }
 
     
-    
     // 정적 내부 클래스 Builder 정의
     public static class Builder {
         private String title;

@@ -18,6 +18,7 @@ public interface 한식요리가능한 {
 	
 	//제공이유:  static매서드로 같은기능을 제공할 수 있다. 다른 인스턴스 매서드 호출할 수 없음
 	
+	//default는 객체를 생성해야지만 사용할 수 있고 오버라이딩이 가능하다(static은 오버라이딩 불가능)
 	default void 김치만두만들기() {	 
 		System.out.println( "<김치만두만들기>>");
 		System.out.println( "만두피 만들기");
@@ -27,6 +28,7 @@ public interface 한식요리가능한 {
 		
 	}
 	
+	//인터페이스도 구현부가 들어간 static메소드는 가질 수 있다 (Comparator의 comparing이 그렇다)
 	static void 김치만두만들기s() {			
 		System.out.println( "<김치만두만들기>>");
 		System.out.println( "만두피 만들기");

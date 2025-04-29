@@ -6,8 +6,9 @@ class Cook{
 	public Cook(String name ) {
 		super();
 		this.name = name;
-		 
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "Cook [name=" + name + " ]";

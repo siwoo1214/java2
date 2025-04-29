@@ -14,6 +14,7 @@ public class ProgramMain {
 		list.add(new SampleCook1("최환석"));
 		list.add(new SampleCook2("백종원"));
 		list.add(new SampleCook3("이연복"));
+		list.add(new Siwoo("박시우"));
   
 		
 
@@ -90,7 +91,7 @@ public class ProgramMain {
 	
 		
 		try {
-			Thread.sleep(20000);  // 1000 =>1초
+			Thread.sleep(1000);  // 1000 =>1초
 			
 			System.out.println("====>최종선발   축하합니다  😄 🎉🎉🎉  ");
 			System.out.println(finalCook);
